@@ -11,7 +11,7 @@ from keras.preprocessing.image import img_to_array
 
 classifier = load_model('/home/diablo/fr/robots/py/eag/models/emotion_little_vgg_2.h5')
 face_classifier = cv2.CascadeClassifier('/home/diablo/fr/robots/py/eag/models/haarcascade_frontalface_default.xml')
-#pretrained_model = "https://github.com/yu4u/age-gender-estimation/releases/download/v0.5/weights.28-3.73.hdf5"
+pretrained_model = "https://github.com/yu4u/age-gender-estimation/releases/download/v0.5/weights.28-3.73.hdf5"
 
 modhash = 'fbe63257a054c1c5466cfd7bf14646d6'
 emotion_classes = {0: 'Angry', 1: 'Fear', 2: 'Happy', 3: 'Neutral', 4: 'Sad', 5: 'Surprise'}
